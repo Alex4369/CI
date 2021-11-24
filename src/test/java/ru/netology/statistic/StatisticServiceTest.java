@@ -17,6 +17,7 @@ class StatisticServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMin() {
         StatisticService service = new StatisticService();
@@ -28,6 +29,7 @@ class StatisticServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void sum() {
         StatisticService service = new StatisticService();
